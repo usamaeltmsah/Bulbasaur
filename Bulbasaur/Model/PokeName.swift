@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum PokeName: String {
+enum PokeName: String, CaseIterable {
     case bug = "bug"
     case dark = "dark"
     case dragon = "dragon"

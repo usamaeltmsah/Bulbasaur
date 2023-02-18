@@ -11,7 +11,26 @@
 		19A3B0FE299C93C800082EDA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A3B0FD299C93C800082EDA /* ContentView.swift */; };
 		19A3B100299C93C900082EDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19A3B0FF299C93C900082EDA /* Assets.xcassets */; };
 		19A3B103299C93C900082EDA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19A3B102299C93C900082EDA /* Preview Assets.xcassets */; };
+		19A3B13D299C93F800082EDA /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A3B11F299C93F800082EDA /* GridView.swift */; };
+		19A3B14B299C973500082EDA /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19A3B14A299C973500082EDA /* Colors.xcassets */; };
+		19A3B154299C99AF00082EDA /* ColorNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A3B14D299C99AF00082EDA /* ColorNames.swift */; };
+		19A3B157299C99AF00082EDA /* ImageNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A3B150299C99AF00082EDA /* ImageNames.swift */; };
+		19A3B15C299C9C1400082EDA /* PokeTypesHScrollableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A3B15B299C9C1400082EDA /* PokeTypesHScrollableView.swift */; };
+		19A3B15F299C9E4200082EDA /* PokeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A3B15E299C9E4200082EDA /* PokeType.swift */; };
+		19F5644529A04BBC00EA6928 /* GameLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F5644429A04BBC00EA6928 /* GameLogic.swift */; };
+		19F5644729A11BF800EA6928 /* PokeName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F5644629A11BF800EA6928 /* PokeName.swift */; };
+		19F564A229A138E800EA6928 /* BulbasaurTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F564A129A138E800EA6928 /* BulbasaurTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		19F564A329A138E800EA6928 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19A3B0F0299C93C800082EDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19A3B0F7299C93C800082EDA;
+			remoteInfo = Bulbasaur;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		19A3B0F8299C93C800082EDA /* Bulbasaur.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bulbasaur.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -19,10 +38,27 @@
 		19A3B0FD299C93C800082EDA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		19A3B0FF299C93C900082EDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		19A3B102299C93C900082EDA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		19A3B11F299C93F800082EDA /* GridView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+		19A3B14A299C973500082EDA /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		19A3B14D299C99AF00082EDA /* ColorNames.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorNames.swift; sourceTree = "<group>"; };
+		19A3B150299C99AF00082EDA /* ImageNames.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageNames.swift; sourceTree = "<group>"; };
+		19A3B15B299C9C1400082EDA /* PokeTypesHScrollableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokeTypesHScrollableView.swift; sourceTree = "<group>"; };
+		19A3B15E299C9E4200082EDA /* PokeType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeType.swift; sourceTree = "<group>"; };
+		19F5644429A04BBC00EA6928 /* GameLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameLogic.swift; sourceTree = "<group>"; };
+		19F5644629A11BF800EA6928 /* PokeName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeName.swift; sourceTree = "<group>"; };
+		19F5649F29A138E800EA6928 /* BulbasaurTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BulbasaurTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		19F564A129A138E800EA6928 /* BulbasaurTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BulbasaurTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		19A3B0F5299C93C800082EDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19F5649C29A138E800EA6928 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -36,6 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				19A3B0FA299C93C800082EDA /* Bulbasaur */,
+				19F564A029A138E800EA6928 /* BulbasaurTests */,
 				19A3B0F9299C93C800082EDA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				19A3B0F8299C93C800082EDA /* Bulbasaur.app */,
+				19F5649F29A138E800EA6928 /* BulbasaurTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,9 +89,13 @@
 		19A3B0FA299C93C800082EDA /* Bulbasaur */ = {
 			isa = PBXGroup;
 			children = (
+				19A3B15D299C9E2F00082EDA /* Model */,
+				19A3B109299C93F800082EDA /* Views */,
+				19A3B14C299C99AF00082EDA /* Project Utilities */,
 				19A3B0FB299C93C800082EDA /* BulbasaurApp.swift */,
 				19A3B0FD299C93C800082EDA /* ContentView.swift */,
 				19A3B0FF299C93C900082EDA /* Assets.xcassets */,
+				19A3B14A299C973500082EDA /* Colors.xcassets */,
 				19A3B101299C93C900082EDA /* Preview Content */,
 			);
 			path = Bulbasaur;
@@ -65,6 +107,50 @@
 				19A3B102299C93C900082EDA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		19A3B109299C93F800082EDA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				19A3B11E299C93F800082EDA /* GridViews */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		19A3B11E299C93F800082EDA /* GridViews */ = {
+			isa = PBXGroup;
+			children = (
+				19A3B15B299C9C1400082EDA /* PokeTypesHScrollableView.swift */,
+				19A3B11F299C93F800082EDA /* GridView.swift */,
+			);
+			path = GridViews;
+			sourceTree = "<group>";
+		};
+		19A3B14C299C99AF00082EDA /* Project Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				19A3B14D299C99AF00082EDA /* ColorNames.swift */,
+				19A3B150299C99AF00082EDA /* ImageNames.swift */,
+			);
+			path = "Project Utilities";
+			sourceTree = "<group>";
+		};
+		19A3B15D299C9E2F00082EDA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				19F5644629A11BF800EA6928 /* PokeName.swift */,
+				19A3B15E299C9E4200082EDA /* PokeType.swift */,
+				19F5644429A04BBC00EA6928 /* GameLogic.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		19F564A029A138E800EA6928 /* BulbasaurTests */ = {
+			isa = PBXGroup;
+			children = (
+				19F564A129A138E800EA6928 /* BulbasaurTests.swift */,
+			);
+			path = BulbasaurTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -87,6 +173,24 @@
 			productReference = 19A3B0F8299C93C800082EDA /* Bulbasaur.app */;
 			productType = "com.apple.product-type.application";
 		};
+		19F5649E29A138E800EA6928 /* BulbasaurTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19F564A529A138E800EA6928 /* Build configuration list for PBXNativeTarget "BulbasaurTests" */;
+			buildPhases = (
+				19F5649B29A138E800EA6928 /* Sources */,
+				19F5649C29A138E800EA6928 /* Frameworks */,
+				19F5649D29A138E800EA6928 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19F564A429A138E800EA6928 /* PBXTargetDependency */,
+			);
+			name = BulbasaurTests;
+			productName = BulbasaurTests;
+			productReference = 19F5649F29A138E800EA6928 /* BulbasaurTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -99,6 +203,10 @@
 				TargetAttributes = {
 					19A3B0F7299C93C800082EDA = {
 						CreatedOnToolsVersion = 14.2;
+					};
+					19F5649E29A138E800EA6928 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 19A3B0F7299C93C800082EDA;
 					};
 				};
 			};
@@ -116,6 +224,7 @@
 			projectRoot = "";
 			targets = (
 				19A3B0F7299C93C800082EDA /* Bulbasaur */,
+				19F5649E29A138E800EA6928 /* BulbasaurTests */,
 			);
 		};
 /* End PBXProject section */
@@ -125,8 +234,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19A3B14B299C973500082EDA /* Colors.xcassets in Resources */,
 				19A3B103299C93C900082EDA /* Preview Assets.xcassets in Resources */,
 				19A3B100299C93C900082EDA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19F5649D29A138E800EA6928 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,12 +254,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19A3B15C299C9C1400082EDA /* PokeTypesHScrollableView.swift in Sources */,
+				19A3B154299C99AF00082EDA /* ColorNames.swift in Sources */,
+				19A3B13D299C93F800082EDA /* GridView.swift in Sources */,
+				19F5644729A11BF800EA6928 /* PokeName.swift in Sources */,
+				19A3B15F299C9E4200082EDA /* PokeType.swift in Sources */,
 				19A3B0FE299C93C800082EDA /* ContentView.swift in Sources */,
 				19A3B0FC299C93C800082EDA /* BulbasaurApp.swift in Sources */,
+				19F5644529A04BBC00EA6928 /* GameLogic.swift in Sources */,
+				19A3B157299C99AF00082EDA /* ImageNames.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19F5649B29A138E800EA6928 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19F564A229A138E800EA6928 /* BulbasaurTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		19F564A429A138E800EA6928 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19A3B0F7299C93C800082EDA /* Bulbasaur */;
+			targetProxy = 19F564A329A138E800EA6928 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		19A3B104299C93C900082EDA /* Debug */ = {
@@ -275,6 +415,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,6 +445,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -314,6 +456,42 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		19F564A629A138E800EA6928 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2DQV4CFN7G;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = usamaeltmsah.BulbasaurTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bulbasaur.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Bulbasaur";
+			};
+			name = Debug;
+		};
+		19F564A729A138E800EA6928 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2DQV4CFN7G;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = usamaeltmsah.BulbasaurTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bulbasaur.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Bulbasaur";
 			};
 			name = Release;
 		};
@@ -334,6 +512,15 @@
 			buildConfigurations = (
 				19A3B107299C93C900082EDA /* Debug */,
 				19A3B108299C93C900082EDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19F564A529A138E800EA6928 /* Build configuration list for PBXNativeTarget "BulbasaurTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19F564A629A138E800EA6928 /* Debug */,
+				19F564A729A138E800EA6928 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
