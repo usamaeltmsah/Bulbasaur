@@ -28,4 +28,24 @@ struct GameLogic {
         [1, 0.5, 0.5, 1, 0.5, 2, 1, 1, 1, 1, 1, 1, 2, 1, 1, 1, 0.5, 2],         // Steel
         [1, 0.5, 1, 1, 1, 1, 2, 0.5, 1, 1, 1, 1, 1, 1, 2, 2, 0.5, 1],           // Fairy
     ]
+    
+    private func getRate(attackerIndex: Int, defender1Index: Int, defender2Index: Int?=nil) -> Double {
+        let rate = rates[attackerIndex][defender1Index]
+        if let defender2Index {
+            return rate + rates[attackerIndex][defender2Index]
+        }
+        return rate
+    }
+    
+    func getRate(attacker: PokeType, defender1: PokeType, defender2: PokeType?=nil) -> Double? {
+        let attackerIndex = PokeType.allCases.firstIndex(of: attacker)
+        let defender1Index = PokeType.allCases.firstIndex(of: defender1)
+        var defender2Index: Int?=nil
+        if let defender2 {
+            defender2Index = PokeType.allCases.firstIndex(of: defender2)
+        }
+        
+        guard let attackerIndex, let defender1Index else { return nil }
+        return self.getRate(attackerIndex: attackerIndex, defender1Index: defender1Index, defender2Index: defender2Index)
+    }
 }
