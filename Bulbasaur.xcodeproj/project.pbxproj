@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		19950BE629A3275300157324 /* AddDefenderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19950BE529A3275300157324 /* AddDefenderButton.swift */; };
+		19950BE829A32CFF00157324 /* Double+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19950BE729A32CFF00157324 /* Double+Extension.swift */; };
 		19A3B0FC299C93C800082EDA /* BulbasaurApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A3B0FB299C93C800082EDA /* BulbasaurApp.swift */; };
 		19A3B0FE299C93C800082EDA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A3B0FD299C93C800082EDA /* ContentView.swift */; };
 		19A3B100299C93C900082EDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19A3B0FF299C93C900082EDA /* Assets.xcassets */; };
@@ -33,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		19950BE529A3275300157324 /* AddDefenderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDefenderButton.swift; sourceTree = "<group>"; };
+		19950BE729A32CFF00157324 /* Double+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Extension.swift"; sourceTree = "<group>"; };
 		19A3B0F8299C93C800082EDA /* Bulbasaur.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bulbasaur.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19A3B0FB299C93C800082EDA /* BulbasaurApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BulbasaurApp.swift; sourceTree = "<group>"; };
 		19A3B0FD299C93C800082EDA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -113,6 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				19A3B11E299C93F800082EDA /* GridViews */,
+				19950BE529A3275300157324 /* AddDefenderButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -131,6 +136,7 @@
 			children = (
 				19A3B14D299C99AF00082EDA /* ColorNames.swift */,
 				19A3B150299C99AF00082EDA /* ImageNames.swift */,
+				19950BE729A32CFF00157324 /* Double+Extension.swift */,
 			);
 			path = "Project Utilities";
 			sourceTree = "<group>";
@@ -259,9 +265,11 @@
 				19A3B13D299C93F800082EDA /* GridView.swift in Sources */,
 				19F5644729A11BF800EA6928 /* PokeName.swift in Sources */,
 				19A3B15F299C9E4200082EDA /* PokeType.swift in Sources */,
+				19950BE829A32CFF00157324 /* Double+Extension.swift in Sources */,
 				19A3B0FE299C93C800082EDA /* ContentView.swift in Sources */,
 				19A3B0FC299C93C800082EDA /* BulbasaurApp.swift in Sources */,
 				19F5644529A04BBC00EA6928 /* GameLogic.swift in Sources */,
+				19950BE629A3275300157324 /* AddDefenderButton.swift in Sources */,
 				19A3B157299C99AF00082EDA /* ImageNames.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
