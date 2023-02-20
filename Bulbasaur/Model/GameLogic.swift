@@ -5,7 +5,7 @@
 //  Created by Usama Fouad on 18/02/2023.
 //
 
-import Foundation
+import SwiftUI
 
 struct GameLogic {
     var rates: [[Double]] = [
@@ -32,7 +32,7 @@ struct GameLogic {
     private func getRate(attackerIndex: Int, defender1Index: Int, defender2Index: Int?=nil) -> Double {
         let rate = rates[attackerIndex][defender1Index]
         if let defender2Index {
-            return rate + rates[attackerIndex][defender2Index]
+            return rate * rates[attackerIndex][defender2Index]
         }
         return rate
     }
@@ -47,5 +47,31 @@ struct GameLogic {
         
         guard let attackerIndex, let defender1Index else { return nil }
         return self.getRate(attackerIndex: attackerIndex, defender1Index: defender1Index, defender2Index: defender2Index)
+    }
+    
+    func getResultText(for rate: Double) -> String {
+        switch rate {
+        case 1:
+            return "It’s working"
+        case 2:
+            return "It’s effective"
+        case 4:
+            return "It’s super effective"
+        case 0:
+            return "It does not have any effect"
+        default:
+            return "It’s not very effective"
+        }
+    }
+    
+    func getColor(for rate: Double) -> Color {
+        switch rate {
+        case 0, 1:
+            return .primary
+        case 2...4:
+            return .green
+        default:
+            return .red
+        }
     }
 }
